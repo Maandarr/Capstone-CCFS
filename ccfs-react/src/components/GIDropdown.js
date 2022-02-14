@@ -3,13 +3,13 @@ import { GIMenuItems } from './GIMenuItems';
 import { Link } from 'react-router-dom'
 import './css/Dropdown.css';
 
-  const GIDropdown = () => {
+function GIDropdown(props) {
   const [click, setClick] = useState(false)
   const handleClick = () => setClick(!click)
 
   return (
     <>
-      <ul onCLick={handleClick} className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}>
+      <ul onCLick={props.onCloseMobileMenu} className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}>
         {GIMenuItems.map((item, index) => {
           return ( 
             <li key={index}>

@@ -3,12 +3,12 @@ import { CCFSMenuItems } from './CCFSMenuItems';
 import { Link } from 'react-router-dom'
 import './css/Dropdown.css';
 
-  const CCFSDropdown = () => {
+function CCFSDropdown(props) {
   const [click, setClick] = useState(false)
   const handleClick = () => setClick(!click)
   return (
     <>
-       <ul onCLick={handleClick} className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}>
+       <ul onCLick={props.onCloseMobileMenu} className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}>
         {CCFSMenuItems.map((item, index) => {
           return ( 
             <li key={index}>

@@ -26,3 +26,13 @@
   color: #fff;
   padding: 16px;
 }
+
+@media screen and (max-width: 960px) {
+  .dropdown-menu {
+    width: 100%;
+    position: absolute;
+    top: 170px;
+    list-style: none;
+    text-align: center;
+  }
+}
