@@ -5,3 +5,12 @@
   list-style: none;
   text-align: start;
 }
+
+.dropdown-menu li {
+  background: #55595c;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background: #55595c;
+}
