@@ -10,7 +10,6 @@ import Donate from './components/pages/donate'
 import Contact from './components/pages/contact'
 import Board from './components/pages/board'
 import GetInvolved from './components/pages/getInvolved'
-// import Header from './components/Header'
 import Footer from './components/Footer'
 
 function App() {
