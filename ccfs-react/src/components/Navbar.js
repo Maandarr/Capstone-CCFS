@@ -1,11 +1,15 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './css/Navbar.css'
-import Dropdown from './Dropdown'
+import GIDropdown from './GIDropdown'
+import CCFSDropdown from './CCFSDropdown'
+
 
 function Navbar() {
     const [click, setClick] = useState(false);
-    const [dropdown, setDropdown] = useState(false);
+    const [GIdropdown, setGIDropdown] = useState(false);
+    const [CCFSdropdown, setCCFSDropdown] = useState(false);
+
 
     const handleClick = () => setClick(!click)
     const closeMobileMenu = () => setClick(false)
@@ -29,13 +33,13 @@ function Navbar() {
                         <Link to='/getInvolved' className='nav-links' onClick={closeMobileMenu}>
                             Get Involved <i className='fas fa-caret-down' />
                         </Link>
-                        {dropdown && <Dropdown />}
+                        {GIdropdown && <GIDropdown />}
                     </li>
                     <li className='nav-item'>
                         <Link to='/the-ccfs' className='nav-links' onClick={closeMobileMenu}>
                             The CCFS <i className='fas fa-caret-down' />
                         </Link>
-                        {dropdown && <Dropdown />}
+                        {CCFSdropdown && <CCFSDropdown />}
                     </li>
                     <li className='nav-item'>
                         <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
