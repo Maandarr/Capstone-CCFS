@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { GIMenuItems } from './GIMenuItems';
 import { Link } from 'react-router-dom'
-import './css/GIDropdown.css';
+import './css/Dropdown.css';
 
-const GIDropdown = () => {
+  const GIDropdown = () => {
   const [click, setClick] = useState(false)
   const handleClick = () => setClick(!click)
 
