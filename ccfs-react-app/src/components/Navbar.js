@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './css/Navbar.css'
 import GIDropdown from './GIDropdown'
 import CCFSDropdown from './CCFSDropdown'
-
+import logo from '../images/ccfs-black.png'
 
 
 
@@ -37,10 +37,10 @@ function Navbar() {
     
 
     return (
-        <>
+        <div className='navbar-container'>
             <nav className='navbar'>
                 <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                    CCFS
+                    <img className='logo' src={logo} alt="" />
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
@@ -81,7 +81,7 @@ function Navbar() {
                     </li>
                 </ul>
             </nav>
-        </>
+        </div>
     );
         
     
