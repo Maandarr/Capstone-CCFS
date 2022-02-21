@@ -12,11 +12,14 @@
 }
 
 .navbar-logo {
+  height: auto;
+  max-width: 100%;
   justify-self: start;
-  margin-left: 20px;
   cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
+  padding: 10px;
+}
+.logo {
+  height: 80px;
 }
 
 .fa-firstdraft {
