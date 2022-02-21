@@ -103,13 +103,8 @@
   .nav-links:hover {
     background-color: #494c4f;
     border-radius: 0;
-  }
-
-  .navbar-logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(25%, 50%);
+    border-bottom: none;
+    color: #fff;
   }
 
   .menu-icon {
