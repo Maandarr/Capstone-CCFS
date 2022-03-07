@@ -1,6 +1,52 @@
-footer {
+/* footer {
   display: flex;
   justify-content: center;
   font-size: 1rem;
   font-family: "Open Sans", sans-serif;
+} */
+h2 {
+  font-family: "Questrial", sans-serif;
+  color: #a8ba3a;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+footer {
+  background: #6e8b3f;
+  display: flex;
+  padding: 165px 0 33px 0;
+  justify-content: space-around;
+}
+
+.footer-container::before {
+  position: absolute;
+  content: "";
+  background: url("../svg/footer-svg.svg") no-repeat;
+  background-size: cover;
+  padding-top: 110px;
+  height: 40px;
+  width: 100%;
+}
+
+.social > i {
+  font-size: 45px;
+  color: #54595f;
+  margin: 0px 20px;
+}
+
+.form-container {
+  display: flex;
+}
+.input-style {
+  padding: 10px 60px 10px 5px;
+  text-align: left;
+}
+.submit-btn {
+  background: #a8ba3a;
+  text-align: center;
+  border: 1px solid #c36;
+  padding: 8px 15px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 16px;
+  color: #fff;
 }
