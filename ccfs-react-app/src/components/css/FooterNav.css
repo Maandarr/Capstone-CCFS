@@ -1,0 +1,147 @@
+.footer-bar-container {
+  padding: 0px 10px 10px 10px;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  /* display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px; */
+  list-style: none;
+  text-align: left;
+  width: 20vw;
+  justify-content: end;
+  padding: 0px 10px 10px 10px;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.footer-links {
+  color: #000;
+  text-decoration: none;
+  padding: 0px 20px 13px 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 19px;
+}
+
+.footer-links:hover {
+  border-bottom: 3px solid #a8ba3a;
+  transition: all 0.2s ease-out;
+  color: #a8ba3a;
+  /* padding-right: 100%; */
+}
+
+.fa-bars {
+  color: #000;
+}
+
+.footer-links-mobile {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .footer-barItems {
+    position: relative;
+  }
+
+  .footer-menu {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    gap: 0px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .footer-menu.active {
+    background: #fff;
+    left: 20%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    margin: 0;
+  }
+
+  .footer-links {
+    text-align: left;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+    padding: 13px 20px;
+  }
+  .fa-caret-down {
+    float: right;
+  }
+
+  .footer-item {
+    height: 40px;
+  }
+
+  .footer-links:hover {
+    background-color: #494c4f;
+    border-radius: 0;
+    border-bottom: none;
+    color: #fff;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 5%;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: #000;
+    font-size: 2rem;
+  }
+
+  .footer-links-mobile {
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    background: #494c4f;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .footer-links-mobile:hover {
+    background: #fff;
+    color: #494c4f;
+    transition: 250ms;
+  }
+
+  button {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer-bar {
+    order: 2;
+  }
+  .footer-bar-container {
+    /* top: 400px; */
+    height: 400px;
+    padding: 0;
+  }
+}
