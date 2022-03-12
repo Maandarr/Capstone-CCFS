@@ -34,7 +34,8 @@ export default function Home() {
             </Link>
             <p className='hashtag-p'>#protectcumberlandforest #restorethecommons #weshareawatershed #cvconservation #projectperseverance</p>
             <Link to='/the-forest' className='read-more'>
-                <p>Read More > > ></p>
+
+                <p>Read More &gt; &gt; &gt;</p>
 
             </Link>
         </div>
