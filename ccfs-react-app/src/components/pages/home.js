@@ -28,9 +28,14 @@ export default function Home() {
                     <br />
                     We are currently working to purchase and protect an additional 25 acres of beautiful creekside forest in the Lower Perseverance Creek corridor. This biodiversity corridor closes the gap between protected parklands, Perseverance Creek and Comox Lake. Please support our ongoing land protection and stewardship efforts by becoming a donor today.</p>
             </section>
-            <Link to='/donate' className=''>
-                <h2>Help us make conservation history!
-                    Become a supporter today.</h2>
+            <Link to='/donate' className='donate-heading'>
+                <p>Help us make conservation history!</p>
+                <p>Become a supporter today.</p>
+            </Link>
+            <p className='hashtag-p'>#protectcumberlandforest #restorethecommons #weshareawatershed #cvconservation #projectperseverance</p>
+            <Link to='/the-forest' className='read-more'>
+                <p>Read More > > ></p>
+
             </Link>
         </div>
     )
