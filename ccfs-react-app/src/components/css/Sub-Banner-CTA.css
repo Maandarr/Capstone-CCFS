@@ -61,3 +61,26 @@
   color: #fff;
   transform: translate(-45px, 50px);
 }
+
+/* Form styles */
+
+.sub-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.sub-submit-btn {
+  margin-bottom: 20px;
+  padding: 8px 16px;
+  background: #a8ba3a;
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  font-weight: 400;
+}
+.sub-submit-btn:hover {
+  background: #86aa4b;
+}
