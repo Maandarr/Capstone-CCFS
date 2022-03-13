@@ -54,3 +54,7 @@ footer {
   font-size: 16px;
   color: #fff;
 }
+
+.submit-btn:hover {
+  background: #86aa4b;
+}
