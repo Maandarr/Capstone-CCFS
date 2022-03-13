@@ -58,3 +58,11 @@ footer {
 .submit-btn:hover {
   background: #86aa4b;
 }
+
+.footer-container > p {
+  text-align: center;
+  background-color: #6e8b3f;
+  padding-bottom: 20px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 300;
+}
