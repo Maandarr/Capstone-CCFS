@@ -4,7 +4,7 @@ import '../css/the-forest.css'
 export default function Forest() {
     return (
         <>
-            <h1 className='forest'>What is the Cumberland Forest?</h1>
+            <h1 className='banner-title'>What is the Cumberland Forest?</h1>
         </>
     )
 }

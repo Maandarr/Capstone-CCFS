@@ -3,7 +3,7 @@ import React from 'react'
 export default function Donate() {
     return (
         <>
-            <h1 className='donate'>Donate Today</h1>
+            <h1 className='banner-title'>Donate Today</h1>
         </>
     )
 }

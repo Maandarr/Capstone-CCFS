@@ -8,7 +8,7 @@ export default function Home() {
 
     return (
         <div className='home-container'>
-            <h1 className='home-title'>Welcome to the Forest</h1>
+            <h2 className='home-title'>Welcome to the Forest</h2>
             <video autoPlay loop muted id='video'>
                 <source src={backgroundVideo} type='video/mp4' />
             </video>
