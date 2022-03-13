@@ -15,6 +15,16 @@
   padding: 65px 10px;
 }
 
+.banner-text-left > h2,
+.banner-text-left > p {
+  color: #fff;
+}
+
+.banner-text-left > h2 {
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
 .banner-text-left > p {
   font-size: 16px;
   font-weight: 300;
