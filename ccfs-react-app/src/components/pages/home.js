@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import SubscriptionCTABanner from '../SubscriptionCTABanner'
 import backgroundVideo from '../videos/lets-protect-our-forest.mp4'
-// import ReactPlayer from 'react-player'
 import '../css/home.css'
 
 export default function Home() {
 
     return (
         <div className='home-container'>
-            <h2 className='home-title'>Welcome to the Forest</h2>
+            <h1 className='home-title'>Welcome to the Forest</h1>
             <video autoPlay loop muted id='video'>
                 <source src={backgroundVideo} type='video/mp4' />
             </video>
@@ -34,10 +34,9 @@ export default function Home() {
             </Link>
             <p className='hashtag-p'>#protectcumberlandforest #restorethecommons #weshareawatershed #cvconservation #projectperseverance</p>
             <Link to='/the-forest' className='read-more'>
-
                 <p>Read More &gt; &gt; &gt;</p>
-
             </Link>
+            <SubscriptionCTABanner />
         </div>
     )
 }
