@@ -43,14 +43,11 @@
 
 .banner-text-left {
   width: 50%;
+  margin-bottom: auto;
 }
 
 .sub-banner-form {
   width: 50%;
-}
-
-.sub-input {
-  width: 100%;
 }
 
 .stay-updated {
