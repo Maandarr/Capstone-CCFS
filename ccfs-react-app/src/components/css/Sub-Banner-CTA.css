@@ -58,3 +58,9 @@
   font-size: 44px;
   font-weight: 400;
 }
+
+.fa-tree {
+  font-size: 44px;
+  color: #fff;
+  transform: translate(-45px, 50px);
+}
