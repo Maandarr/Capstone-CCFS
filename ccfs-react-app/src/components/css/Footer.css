@@ -42,6 +42,7 @@ footer {
 .input-style {
   padding: 10px 60px 10px 5px;
   text-align: left;
+  margin-bottom: 8px;
 }
 .submit-btn {
   background: #a8ba3a;
