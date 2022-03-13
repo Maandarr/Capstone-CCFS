@@ -16,6 +16,8 @@ const Footer = () => {
         <FooterNav />
         <FooterTest />
       </footer>
+      <p>All content © Cumberland Community Forest Society.</p>
+
     </div>
 
   )
