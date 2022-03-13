@@ -47,7 +47,8 @@ footer {
 .submit-btn {
   background: #a8ba3a;
   text-align: center;
-  border: 1px solid #c36;
+  border: none;
+  border-radius: 3px;
   padding: 8px 15px;
   font-family: "Be Vietnam Pro", sans-serif;
   font-size: 16px;
