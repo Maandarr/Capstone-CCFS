@@ -1,5 +1,5 @@
 # Capstone-CCFS
 
 ### Live website:
-https://ccfs-redevelopment.herokuapp.comx
+https://ccfs-redevelopment.herokuapp.com
 
