@@ -56,9 +56,9 @@ export default function Donate() {
                             Old school!
                         </p>
                         <div className="bank-transfer-wrapper">
-                        <button className='bank-transfer-form'><a href="https://www.cumberlandforest.com/backwoods/wp-content/uploads/2021/11/2021-2022-CCFS-Donor-Form.pdf">Here's the Bank Transfer Form</a></button>
+                            <button className='bank-transfer-form'><a href="https://www.cumberlandforest.com/backwoods/wp-content/uploads/2021/11/2021-2022-CCFS-Donor-Form.pdf">Here's the Bank Transfer Form</a></button>
                         </div>
-                        
+
                     </div>
                     <div className="paypal">
                         <h4 className='payment-methods-heading'>Donate via Paypal</h4>
@@ -71,7 +71,7 @@ export default function Donate() {
                         </form>
                         <h4 className='payment-methods-heading second-payment-methods-heading'>Donate securities and multiply your investment!</h4>
                         <p>
-                            <a className='click-here-link' href="https://www.canadahelps.org/en/dn/s/57510/donate">CLICK HERE.</a> 
+                            <a className='click-here-link' href="https://www.canadahelps.org/en/dn/s/57510/donate">CLICK HERE.</a>
                             <br />
                             <br />
                             The Cumberland Community Forest Society is a charitable organization.
@@ -83,7 +83,7 @@ export default function Donate() {
                     <div className="other-ways">
                         <h4 className='payment-methods-heading'>Other ways to donate</h4>
                         <p>
-                            eTransfer 
+                            eTransfer
                             <br />
                             <a className='email' href="mailto:donate@cumberlandforest.com">donate@cumberlandforest.com</a>
                             <br />
@@ -99,6 +99,29 @@ export default function Donate() {
                         </p>
                     </div>
                 </div>
+            </section>
+            <section className="donors">
+                <div className="donors-container">
+                    <h3 className='donors-heading'>Our donors make this important land protection work possible! Help us save the Cumberland Forest</h3>
+                    <div className="donors-info">
+                        <p>
+                            <strong><em>Monthly Donors</em></strong> are the backbone of our organization and provide the foundation for us to leverage incredible grants, funding and donor opportunities.
+                            <br />
+                            <br />
+                            <strong><em>Community Partners</em></strong> contribute cash, goods or services in support of our conservation efforts up to $10,000.
+                            <br />
+                            <br />
+                            <strong><em>Legacy Donors</em></strong> contribute $10,000 + to our land protection, restoration and biodiversity work.</p>
+                        <p>
+                            <strong><em>Guardian Donors</em></strong> contribute $50,000 + to our land protection efforts and are recognized in perpetuity on signage. These donors include individuals, businesses, foundations and community organizations who have made a significant one-time contributions or who sustain us over time as major monthly donors.
+                            <br />
+                            <br />
+                            <strong><em>Special Funds</em></strong> are developed between the donor and the CCFS in celebration of special events, pledges, marriages and loved ones who have passed. We create unique web content and links for donors to share with their networks. Message us today to set up a Special Fund.
+                        </p>
+                    </div>
+                </div>
+
+
 
             </section>
 
