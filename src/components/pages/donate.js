@@ -55,7 +55,10 @@ export default function Donate() {
                             <br />
                             Old school!
                         </p>
-                        <button className=''><a href="https://www.cumberlandforest.com/backwoods/wp-content/uploads/2021/11/2021-2022-CCFS-Donor-Form.pdf">Here's the Bank Transfer Form</a></button>
+                        <div className="bank-transfer-wrapper">
+                        <button className='bank-transfer-form'><a href="https://www.cumberlandforest.com/backwoods/wp-content/uploads/2021/11/2021-2022-CCFS-Donor-Form.pdf">Here's the Bank Transfer Form</a></button>
+                        </div>
+                        
                     </div>
                     <div className="paypal">
                         <h4 className='payment-methods-heading'>Donate via Paypal</h4>
