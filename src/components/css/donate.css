@@ -61,4 +61,25 @@
     margin: -10px 5px;
 }
 
+.form-about > p {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+.form-about > h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+    line-height: 33.6px;
+    font-family: "Questrial", sans-serif;
+}
+
+.form-about > h3 {
+    font-family: "Be Vietnam", sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 14.4px;
+}
+
 }
