@@ -39,4 +39,26 @@
     margin-bottom: -15px;
 
 }
+.canada-helps-logo {
+    width: 168px;
+    height: 80px;
+}
+.canada-helps-section {
+    display: flex;
+    flex-direction: row;
+    margin-right: 16px;
+}
+.canada-helps-section > p {
+    line-height: 24px;
+    font-weight: 300;
+}
+.profile-here {
+    text-decoration: none;
+    color: #6e9b3f;
+}
+
+#cdn-mount {
+    margin: -10px 5px;
+}
+
 }
