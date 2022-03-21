@@ -82,4 +82,44 @@
     margin-bottom: 14.4px;
 }
 
+.payment-methods {
+    width: 100%;
+}
+
+.payment-methods-container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+}
+
+.bank-transfers, 
+.paypal, 
+.other-ways {
+    padding: 1vh;
+    width: 33%;
+}
+
+.bank-transfers {
+    background-color: #EFEFEF;
+}
+
+.payment-methods-heading {
+    margin-top: 8px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.bank-transfers > p, 
+.paypal > p, 
+.other-ways > p {
+    font-family: "Be Vietnam", sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+    font-size: 16px;
+}
+.paypal > p {
+    margin-top: 20px;
 }
