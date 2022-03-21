@@ -66,9 +66,9 @@ export default function Donate() {
                             <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" border={0} />
                             <img alt="" src="https://www.paypal.com/en_CA/i/scr/pixel.gif" width={1} height={1} border={0} />
                         </form>
+                        <h4 className='payment-methods-heading second-payment-methods-heading'>Donate securities and multiply your investment!</h4>
                         <p>
-                            Donate securities and multiply your investment!
-                            CLICK HERE.
+                            <a className='click-here-link' href="https://www.canadahelps.org/en/dn/s/57510/donate">CLICK HERE.</a> 
                             <br />
                             <br />
                             The Cumberland Community Forest Society is a charitable organization.
@@ -80,14 +80,19 @@ export default function Donate() {
                     <div className="other-ways">
                         <h4 className='payment-methods-heading'>Other ways to donate</h4>
                         <p>
-                            eTransfer donate@cumberlandforest.com
-                            Message donate@cumberlandforest.com to set up a donation process that works for you.
+                            eTransfer 
+                            <br />
+                            <a className='email' href="mailto:donate@cumberlandforest.com">donate@cumberlandforest.com</a>
+                            <br />
+                            Message
+                            <br />
+                            <a className='email' href="mailto:donate@cumberlandforest.com">donate@cumberlandforest.com</a> to set up a donation process that works for you.
                             <br />
                             <br />
                             Talk to us about how we can work with you to develop the online donor tools and communications for gift funds for weddings and celebrations or memorial funds for friends or family.
                             <br />
                             <br />
-                            Message us at info@cumberlandforest.com to discuss further.
+                            Message us at <a className='email' href="mailto:info@cumberlandforest.com">info@cumberlandforest.com</a> to discuss further.
                         </p>
                     </div>
                 </div>
