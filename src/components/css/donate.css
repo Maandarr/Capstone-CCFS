@@ -31,8 +31,12 @@
 }
 
 .donation-form {
-    height: 720px;
+    height: 775px;
     border: 0px;
     overflow: hidden;
-    width: 50%;
+    width: 100%;
+    margin-top: -35px;
+    margin-bottom: -15px;
+
+}
 }
