@@ -42,6 +42,58 @@ export default function Donate() {
 
 
             </div>
+            <section className="payment-methods">
+                <div className="payment-methods-container">
+                    <div className="bank-transfers">
+                        <h4 className='payment-methods-heading'>Bank Transfers</h4>
+                        <p>
+                            Would you like to become a monthly donor to the Cumberland Community Forest Society and avoid any fees going to 3rd party platforms insead of the CCFS?
+                            <br />
+                            <br />
+                            The best way to make sure 100% of your donation goes to the CCFS is to donate directly from your bank account through setting up an auto payment or providing us with a void cheque.
+                            <br />
+                            <br />
+                            Old school!
+                        </p>
+                        <button className=''><a href="https://www.cumberlandforest.com/backwoods/wp-content/uploads/2021/11/2021-2022-CCFS-Donor-Form.pdf">Here's the Bank Transfer Form</a></button>
+                    </div>
+                    <div className="paypal">
+                        <h4 className='payment-methods-heading'>Donate via Paypal</h4>
+                        <form action="https://www.paypal.com/donate" method="post" target="_top">
+                            <input type="hidden" name="hosted_button_id" defaultValue="9TXWQTDCF7FBW" />
+                            <input type="hidden" name="no_recurring" defaultValue={0} />
+                            <input type="hidden" name="currency_code" defaultValue="CAD" />
+                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" border={0} />
+                            <img alt="" src="https://www.paypal.com/en_CA/i/scr/pixel.gif" width={1} height={1} border={0} />
+                        </form>
+                        <p>
+                            Donate securities and multiply your investment!
+                            CLICK HERE.
+                            <br />
+                            <br />
+                            The Cumberland Community Forest Society is a charitable organization.
+                            <br />
+                            <br />
+                            Charitable tax number: 88895 0219 RR0001
+                        </p>
+                    </div>
+                    <div className="other-ways">
+                        <h4 className='payment-methods-heading'>Other ways to donate</h4>
+                        <p>
+                            eTransfer donate@cumberlandforest.com
+                            Message donate@cumberlandforest.com to set up a donation process that works for you.
+                            <br />
+                            <br />
+                            Talk to us about how we can work with you to develop the online donor tools and communications for gift funds for weddings and celebrations or memorial funds for friends or family.
+                            <br />
+                            <br />
+                            Message us at info@cumberlandforest.com to discuss further.
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+
         </div>
 
     )
