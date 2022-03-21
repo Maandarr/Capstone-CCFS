@@ -1,3 +1,15 @@
+.donation-content {
+    width: 100%;
+}
+
+.form-section {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../../images/land-trust.png");
+    background-size: cover;
+}
+
 .donation-form {
     height: 720px;
     border: 0px;
