@@ -29,7 +29,7 @@ function FooterNav() {
                     </li>
                     <li className='footer-item'>
                         <Link to='/the-ccfs' className='footer-links' onClick={closeMobileMenu}>
-                            The CCFS <i className='fas fa-caret-down' />
+                            The CCFS
                         </Link>
                     </li>
                     <li className='footer-item'>

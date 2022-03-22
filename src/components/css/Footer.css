@@ -26,13 +26,13 @@ footer {
   margin-top: 20px;
 }
 
-.social > i {
+.social > a {
   font-size: 45px;
   color: #54595f;
   margin: 0px 20px;
 }
 
-.social > i:hover {
+.social > a:hover {
   color: #6c727a;
 }
 

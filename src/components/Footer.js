@@ -9,9 +9,9 @@ const Footer = () => {
     <div className="footer-container">
       <footer>
         <div className="social">
-          <i className="fab fa-facebook"></i>
-          <i className="fab fa-instagram"></i>
-          <i className="fab fa-youtube"></i>
+          <a href="https://www.facebook.com/protectcumberlandforest"><i className="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/thecumberlandforest/"><i className="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UC5kBsdC3NcmX6XAbUttGUYA"><i className="fab fa-youtube"></i></a>
         </div>
         <FooterNav />
         <FooterTest />
