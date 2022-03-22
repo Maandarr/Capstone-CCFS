@@ -1,39 +1,14 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './css/FooterNav.css'
-import GIDropdown from './GIDropdown'
-import CCFSDropdown from './CCFSDropdown'
 
 
 
 function FooterNav() {
     const [click, setClick] = useState(false);
-    const [GIdropdown, setGIDropdown] = useState(false);
-    const [CCFSdropdown, setCCFSDropdown] = useState(false);
     
     const handleClick = () => setClick(!click)
     const closeMobileMenu = () => setClick(false)
-
-    const GIextendElement = () => {
-        GIdropdown ? setGIDropdown(false) : setGIDropdown(true);
-    }
-    const CCFSextendElement = () => {
-        CCFSdropdown ? setCCFSDropdown(false) : setCCFSDropdown(true);
-    }
-
-    const GIonMouseEnter = () => {
-        (window.innerWidth < 960) ? setGIDropdown(false) : setGIDropdown(true)
-    }
-    const GIonMouseLeave = () => {
-        (window.innerWidth < 960) ? setGIDropdown(false) : setGIDropdown(false)
-    }
-    const CCFSonMouseEnter = () => {
-        (window.innerWidth < 960) ? setCCFSDropdown(false) : setCCFSDropdown(true)
-    }
-    const CCFSonMouseLeave = () => {
-        (window.innerWidth < 960) ? setCCFSDropdown(false) : setCCFSDropdown(false)
-    }
-    
 
     return (
         <div className='footer-bar-container'>
@@ -47,23 +22,20 @@ function FooterNav() {
                             The Forest
                         </Link>
                     </li>
-                    <li className='footer-item' 
-                        onMouseEnter={GIonMouseEnter}
-                        onMouseLeave={GIonMouseLeave}
-                        onClick={GIextendElement}>
+                    <li className='footer-item'>
                         <Link to='/getInvolved' className='footer-links' onClick={closeMobileMenu}>
-                            Get Involved <i className='fas fa-caret-down' />
+                            Get Involved
                         </Link>
-                        {GIdropdown && <GIDropdown onCloseMobileMenu={closeMobileMenu}/>}
                     </li>
-                    <li className='footer-item' 
-                        onMouseEnter={CCFSonMouseEnter}
-                        onMouseLeave={CCFSonMouseLeave}
-                        onClick={CCFSextendElement}>
+                    <li className='footer-item'>
                         <Link to='/the-ccfs' className='footer-links' onClick={closeMobileMenu}>
                             The CCFS <i className='fas fa-caret-down' />
                         </Link>
-                        {CCFSdropdown && <CCFSDropdown onCloseMobileMenu={closeMobileMenu}/>}
+                    </li>
+                    <li className='footer-item'>
+                        <Link to='/board' className='footer-links' onClick={closeMobileMenu}>
+                            Our Board and Staff
+                        </Link>
                     </li>
                     <li className='footer-item'>
                         <Link to='/contact' className='footer-links' onClick={closeMobileMenu}>
