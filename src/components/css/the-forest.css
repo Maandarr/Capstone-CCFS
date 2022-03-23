@@ -30,3 +30,12 @@
     margin-bottom: 14.4px;
     overflow-wrap: break-word;
 }
+.main-info {
+    width: 70%;
+    padding: 10px;
+}
+
+.donate-aside {
+    width: 30%;
+    padding: 10px;
+}
