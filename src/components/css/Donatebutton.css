@@ -1,0 +1,18 @@
+.donate-btn {
+    background: #0c683f;
+    font-size: 26px;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Questrial", sans-serif;
+    padding: 10px 30px;
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.donate-btn > .fa-tree {
+   color: #fff;
+   /* width: 10px;
+   height: 20px; */
+   /* transform: translate(-10px); */
+}
