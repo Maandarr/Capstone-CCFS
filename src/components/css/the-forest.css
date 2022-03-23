@@ -30,6 +30,14 @@
     margin-bottom: 14.4px;
     overflow-wrap: break-word;
 }
+.slug {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    height: auto;
+    margin: 25px 0px;
+}
+
 .main-info {
     width: 70%;
     padding: 10px;
