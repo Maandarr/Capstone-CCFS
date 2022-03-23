@@ -1,11 +1,13 @@
 import React from 'react'
-import './Donatebutton.css'
+import './css/Donatebutton.css'
 import { Link } from 'react-router-dom'
 
 export function Donatebutton() {
     return (
-        <Link to='donate'>
-            <button className='btn'><i class="fas fa-tree" />Donate Today</button>
+        <Link to='/donate'>
+            <p className='donate-btn'><i className='fas fa-tree'></i>Donate today</p>
         </Link>
     );
 }
+
+export default Donatebutton
