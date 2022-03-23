@@ -11,3 +11,22 @@
     margin-top: 3vh;
 }
 
+.main-info > h3,
+.donate-aside > h3 {
+    font-family: "Questrial", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    overflow-wrap: break-word;
+}
+.main-info > p,
+.donate-aside > p{
+    font-family: "Be Vietnam", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 14.4px;
+    overflow-wrap: break-word;
+}
