@@ -66,3 +66,19 @@ footer {
   font-family: "Be Vietnam Pro", sans-serif;
   font-weight: 300;
 }
+
+@media screen and (max-width: 767px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .social {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .form-container {
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

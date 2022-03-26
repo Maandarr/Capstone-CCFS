@@ -1,190 +1,221 @@
 .donation-content {
-    width: 100%;
+  width: 100%;
 }
 
 .form-section {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url("../../images/land-trust.png");
-    background-size: cover;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../../images/land-trust.png");
+  background-size: cover;
 }
 
 .form-section-container {
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
-    
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
 }
 .iframe-container {
-    width: 100%;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+  width: 100%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
 .form-about {
-    margin-top: 2vh;
-    width: 100%;
-    padding: 30px;
+  margin-top: 2vh;
+  width: 100%;
+  padding: 30px;
 }
 
 .donation-form {
-    height: 775px;
-    border: 0px;
-    overflow: hidden;
-    width: 100%;
-    margin-top: -35px;
-    margin-bottom: -15px;
-
+  height: 775px;
+  border: 0px;
+  overflow: hidden;
+  width: 100%;
+  margin-top: -35px;
+  margin-bottom: -15px;
 }
 .canada-helps-logo {
-    width: 168px;
-    height: 80px;
+  width: 168px;
+  height: 80px;
 }
 .canada-helps-section {
-    display: flex;
-    flex-direction: row;
-    margin-right: 16px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 16px;
 }
 .canada-helps-section > p {
-    line-height: 24px;
-    font-weight: 300;
+  line-height: 24px;
+  font-weight: 300;
 }
 .profile-here,
 .click-here-link,
 .email {
-    text-decoration: none;
-    color: #6e9b3f;
+  text-decoration: none;
+  color: #6e9b3f;
 }
 
 #cdn-mount {
-    margin: -10px 5px;
+  margin: -10px 5px;
 }
 
 .form-about > p {
-    font-family: 'Be Vietnam Pro', sans-serif;
-    font-weight: 300;
-    line-height: 1.5;
-    font-size: 1rem;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 1rem;
 }
 .form-about > h2 {
-    margin-top: 0.5rem;
-    margin-bottom: 1.5rem;
-    font-weight: 300;
-    line-height: 33.6px;
-    font-family: "Questrial", sans-serif;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+  line-height: 33.6px;
+  font-family: "Questrial", sans-serif;
 }
 
 .form-about > h3 {
-    font-family: "Be Vietnam", sans-serif;
-    font-weight: 300;
-    line-height: 24px;
-    margin-bottom: 14.4px;
+  font-family: "Be Vietnam", sans-serif;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 14.4px;
 }
 
 .payment-methods {
-    width: 100%;
+  width: 100%;
 }
 
 .payment-methods-container {
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5vh;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
 }
 
-.bank-transfers, 
-.paypal, 
+.bank-transfers,
+.paypal,
 .other-ways {
-    padding: 1vh;
-    width: 33%;
+  padding: 1vh;
+  width: 33%;
 }
 
 .bank-transfers {
-    background-color: #EFEFEF;
+  background-color: #efefef;
 }
 
 .payment-methods-heading {
-    margin-top: 8px;
-    margin-bottom: 30px;
-    font-size: 20px;
+  margin-top: 8px;
+  margin-bottom: 30px;
+  font-size: 20px;
 }
 
-.bank-transfers > p, 
-.paypal > p, 
+.bank-transfers > p,
+.paypal > p,
 .other-ways > p {
-    font-family: "Be Vietnam", sans-serif;
-    font-weight: 300;
-    line-height: 24px;
-    font-size: 16px;
+  font-family: "Be Vietnam", sans-serif;
+  font-weight: 300;
+  line-height: 24px;
+  font-size: 16px;
 }
 .second-payment-methods-heading {
-    margin-top: 30px;
-    border-top: 1px solid black;
-    padding-top: 40px;
+  margin-top: 30px;
+  border-top: 1px solid black;
+  padding-top: 40px;
 }
 
 .bank-transfer-form {
-    background: #A8BA3A;
-    border: none;
-    font-weight: 600;
-    font-size: 15px;
-    border-radius: 3px;
-    padding: 12px 24px;
-    margin-top: 3vh;
-    text-align: center;
+  background: #a8ba3a;
+  border: none;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 3px;
+  padding: 12px 24px;
+  margin-top: 3vh;
+  text-align: center;
 }
 .bank-transfer-form > a {
-    font-family: "Questrial", sans-serif;
-    color: #fff;
-    text-decoration: none;
+  font-family: "Questrial", sans-serif;
+  color: #fff;
+  text-decoration: none;
 }
 
 .bank-transfer-wrapper {
-    text-align: center;
+  text-align: center;
 }
 
 .donors {
-    width: 100%;
+  width: 100%;
 }
 
 .donors-container {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
 }
 
 .donors-info {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 .donors-info > p {
-    margin-top: 3vh;
-    width: 50%;
-    font-family: "Be Vietnam", sans-serif;
-    line-height: 24px;
-    overflow-wrap: break-word;
-    font-size: 16px;
-    padding: 10px;
+  margin-top: 3vh;
+  width: 50%;
+  font-family: "Be Vietnam", sans-serif;
+  line-height: 24px;
+  overflow-wrap: break-word;
+  font-size: 16px;
+  padding: 10px;
 }
 .donors-heading {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Questrial", sans-serif;
+  line-height: 40px;
+  overflow-wrap: break-word;
+  font-size: 44px;
+  color: #6e8b3f;
+}
+
+@media screen and (max-width: 960px) {
+  .form-section-container {
+    flex-direction: column;
+  }
+  .payment-methods-container {
+    flex-direction: column;
+  }
+  .bank-transfers,
+  .paypal,
+  .other-ways {
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
-    width: 95%;
-    text-align: center;
-    font-weight: 400;
-    font-family: "Questrial", sans-serif;
-    line-height: 40px;
-    overflow-wrap: break-word;
-    font-size: 44px;
-    color: #6E8B3F;
+  }
+  .donors-conatainer {
+    flex-direction: column; 
+}
+.donors-info {
+    flex-direction: column;
+}
+.donors-info > p {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+@media screen and (max-width: 767px) {
+    .canada-helps-section {
+        flex-direction: column;
+    }
 }

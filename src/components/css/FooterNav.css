@@ -30,7 +30,6 @@
   border-bottom: 3px solid #a8ba3a;
   transition: all 0.2s ease-out;
   color: #a8ba3a;
-  /* padding-right: 100%; */
 }
 
 .fa-bars {
@@ -65,7 +64,7 @@
   .footer-menu.active {
     background: #fff;
     display: flex;
-    left: 20%;
+    left: 10%;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
@@ -77,18 +76,19 @@
     padding: 2rem;
     width: 100%;
     display: table;
-    padding: 13px 20px;
+    padding: 10px 20px;
   }
   .fa-caret-down {
     float: right;
   }
 
   .footer-item {
-    height: 40px;
+    height: 50px;
   }
 
   .footer-links:hover {
     background-color: #494c4f;
+    
     border-radius: 0;
     border-bottom: none;
     color: #fff;
@@ -97,9 +97,7 @@
   .footer-menu-icon {
     display: block;
     position: relative;
-    bottom: 0;
-    /* right: 5%; */
-    /* transform: translate(-10%, 10%); */
+    margin-top: 30px;
     font-size: 1.8rem;
     cursor: pointer;
   }
@@ -115,7 +113,7 @@
     padding: 1.5rem;
     margin: 2rem auto;
     border-radius: 4px;
-    width: 80%;
+    width: 100%;
     background: #494c4f;
     text-decoration: none;
     color: #fff;
@@ -137,8 +135,14 @@
     order: 2;
   }
   .footer-bar-container {
-    /* top: 400px; */
-    height: 400px;
+    height: auto;
     padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-menu-icon {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
