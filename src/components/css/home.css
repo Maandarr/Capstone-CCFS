@@ -122,3 +122,14 @@
 .card-read-more:hover {
   color: #a8ba3a;
 }
+
+@media screen and (max-width: 960px) {
+  .home-about {
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+
+}

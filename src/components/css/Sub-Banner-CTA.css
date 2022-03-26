@@ -84,3 +84,24 @@
 .sub-submit-btn:hover {
   background: #86aa4b;
 }
+
+@media screen and (max-width: 960px) {
+  .sub-banner-content {
+    flex-direction: column;
+  }
+
+  .banner-text-left,
+  .sub-banner-form {
+    width: 100%;
+  }
+  .banner-text-left {
+    text-align: center;
+  }
+  .fa-tree {
+    transform: translate(0%, -15%);
+  }
+
+  .banner-text-left > p {
+    margin-bottom: 2vh;
+  }
+}
