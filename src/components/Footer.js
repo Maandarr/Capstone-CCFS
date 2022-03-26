@@ -1,7 +1,6 @@
 import React from "react"
 import './css/Footer.css'
 import FooterNav from "./FooterNav"
-// import SubscribeForm from "./FooterForm"
 import FooterTest from "./FooterTest"
 
 const Footer = () => {

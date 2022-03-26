@@ -5,9 +5,6 @@
 .footer-menu {
   display: flex;
   flex-direction: column;
-  /* display: grid;
-  grid-template-columns: repeat(5, auto);
-  grid-gap: 10px; */
   list-style: none;
   text-align: left;
   width: 20vw;
@@ -44,7 +41,7 @@
   display: none;
 }
 
-.menu-icon {
+.footer-menu-icon {
   display: none;
 }
 
@@ -54,20 +51,20 @@
   }
 
   .footer-menu {
-    display: flex;
+    display: none;
     flex-direction: column;
     width: 75%;
     height: auto;
-    position: absolute;
+    position: relative;
     bottom: 0px;
     gap: 0px;
-    left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
   }
 
   .footer-menu.active {
     background: #fff;
+    display: flex;
     left: 20%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -97,12 +94,12 @@
     color: #fff;
   }
 
-  .menu-icon {
+  .footer-menu-icon {
     display: block;
-    position: absolute;
-    top: 0;
-    right: 5%;
-    transform: translate(-100%, 60%);
+    position: relative;
+    bottom: 0;
+    /* right: 5%; */
+    /* transform: translate(-10%, 10%); */
     font-size: 1.8rem;
     cursor: pointer;
   }

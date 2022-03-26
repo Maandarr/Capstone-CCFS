@@ -13,7 +13,7 @@ function FooterNav() {
     return (
         <div className='footer-bar-container'>
             <nav className='footer-nav'>
-                <div className='menu-icon' onClick={handleClick}>
+                <div className='footer-menu-icon' onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
                 <ul className={ click ? 'footer-menu active' : 'footer-menu'}>

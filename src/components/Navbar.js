@@ -1,39 +1,17 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './css/Navbar.css'
-import GIDropdown from './GIDropdown'
-import CCFSDropdown from './CCFSDropdown'
 import logo from '../images/ccfs-black.png'
 
 
 
 function Navbar() {
     const [click, setClick] = useState(false);
-    const [GIdropdown, setGIDropdown] = useState(false);
-    const [CCFSdropdown, setCCFSDropdown] = useState(false);
+    
     
     const handleClick = () => setClick(!click)
     const closeMobileMenu = () => setClick(false)
 
-    const GIextendElement = () => {
-        GIdropdown ? setGIDropdown(false) : setGIDropdown(true);
-    }
-    const CCFSextendElement = () => {
-        CCFSdropdown ? setCCFSDropdown(false) : setCCFSDropdown(true);
-    }
-
-    const GIonMouseEnter = () => {
-        (window.innerWidth < 960) ? setGIDropdown(false) : setGIDropdown(true)
-    }
-    const GIonMouseLeave = () => {
-        (window.innerWidth < 960) ? setGIDropdown(false) : setGIDropdown(false)
-    }
-    const CCFSonMouseEnter = () => {
-        (window.innerWidth < 960) ? setCCFSDropdown(false) : setCCFSDropdown(true)
-    }
-    const CCFSonMouseLeave = () => {
-        (window.innerWidth < 960) ? setCCFSDropdown(false) : setCCFSDropdown(false)
-    }
     
 
     return (
@@ -51,23 +29,20 @@ function Navbar() {
                             The Forest
                         </Link>
                     </li>
-                    <li className='nav-item' 
-                        onMouseEnter={GIonMouseEnter}
-                        onMouseLeave={GIonMouseLeave}
-                        onClick={GIextendElement}>
+                    <li className='nav-item'>
                         <Link to='/getInvolved' className='nav-links' onClick={closeMobileMenu}>
-                            Get Involved <i className='fas fa-caret-down' />
+                            Get Involved
                         </Link>
-                        {GIdropdown && <GIDropdown onCloseMobileMenu={closeMobileMenu}/>}
                     </li>
-                    <li className='nav-item' 
-                        onMouseEnter={CCFSonMouseEnter}
-                        onMouseLeave={CCFSonMouseLeave}
-                        onClick={CCFSextendElement}>
+                    <li className='nav-item'>
                         <Link to='/the-ccfs' className='nav-links' onClick={closeMobileMenu}>
-                            The CCFS <i className='fas fa-caret-down' />
+                            The CCFS
                         </Link>
-                        {CCFSdropdown && <CCFSDropdown onCloseMobileMenu={closeMobileMenu}/>}
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='/board' className='nav-links' onClick={closeMobileMenu}>
+                            Our Board and Staff
+                        </Link>
                     </li>
                     <li className='nav-item'>
                         <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
