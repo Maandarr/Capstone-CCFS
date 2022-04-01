@@ -30,11 +30,6 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/getInvolved' className='nav-links' onClick={closeMobileMenu}>
-                            Get Involved
-                        </Link>
-                    </li>
-                    <li className='nav-item'>
                         <Link to='/the-ccfs' className='nav-links' onClick={closeMobileMenu}>
                             The CCFS
                         </Link>
