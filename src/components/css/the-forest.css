@@ -50,3 +50,17 @@
 .ccfs-video {
     width: 100%;
 }
+
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 960px) {
+    .forest-container {
+        flex-direction: column;
+    }
+    .main-info, .donate-aside {
+        width: 100%;
+    }
+    
+}

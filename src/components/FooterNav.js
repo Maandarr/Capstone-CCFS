@@ -23,11 +23,6 @@ function FooterNav() {
                         </Link>
                     </li>
                     <li className='footer-item'>
-                        <Link to='/getInvolved' className='footer-links' onClick={closeMobileMenu}>
-                            Get Involved
-                        </Link>
-                    </li>
-                    <li className='footer-item'>
                         <Link to='/the-ccfs' className='footer-links' onClick={closeMobileMenu}>
                             The CCFS
                         </Link>

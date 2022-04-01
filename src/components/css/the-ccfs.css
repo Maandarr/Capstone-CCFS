@@ -1,0 +1,29 @@
+.ccfs {
+    width: 100%;
+}
+
+.large-subheading {
+    color: #6E8B3F;
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 44px;
+    margin-bottom: 2.5vh;
+}
+
+.board-link {
+    color: #6E8B3F;
+    text-decoration: none;
+}
+.ccfs-contact {
+    margin-top: 2vh;
+}
+
+.ccfs-donate-aside {
+    display: flex;
+    flex-direction: column;
+}
+
+.donate-aside-container {
+    justify-content: center;
+}
