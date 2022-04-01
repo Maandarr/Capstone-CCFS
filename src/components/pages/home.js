@@ -1,7 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import SubscriptionCTABanner from '../SubscriptionCTABanner'
-import backgroundVideo from '../videos/lets-protect-our-forest.mp4'
+import backgroundVideo from '../videos/lets-protect-our-forest-45sec.mp4'
+// import externalVideo from 'https://youtu.be/uC6CvYxQCwc'
+
 import '../css/home.css'
 
 export default function Home() {
