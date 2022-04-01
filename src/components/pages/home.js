@@ -1,8 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import SubscriptionCTABanner from '../SubscriptionCTABanner'
-import backgroundVideo from '../videos/lets-protect-our-forest-45sec.mp4'
-// import externalVideo from 'https://youtu.be/uC6CvYxQCwc'
+import backgroundVideo from '../videos/lets-protect-our-forest-kapwing-1min.mp4'
 
 import '../css/home.css'
 
@@ -15,14 +14,16 @@ export default function Home() {
                 <source src={backgroundVideo} type='video/mp4' />
             </video>
             <section className='home-about'>
-                <p>The Cumberland Forest is part of an interconnected system of forests, salmon bearing creeks, wetlands and riparian areas adjacent to the Village of Cumberland on Vancouver Island in the traditional territory of the Pentlach, SaLαLt, Säsitla and Eiksαn people, known today as the K’omoks First Nation.
+                <p>
+                    The Cumberland Forest is part of an interconnected system of forests, salmon bearing creeks, wetlands and riparian areas adjacent to the Village of Cumberland on Vancouver Island in the traditional territory of the Pentlach, SaLαLt, Säsitla and Eiksαn people, known today as the K’omoks First Nation.
                     <br />
                     <br />
                     This forest is an integral part of both the Trent and Puntledge Watersheds, feeds Comox Lake, and forms a critical link in an extensive biodiversity corridor that connects mountains and lakes to the Salish Sea. This forest is privately owned by timber companies.
                     <br />
                     <br />
                     The Cumberland Forest has given a great deal to our community. Cumberland was built on logging and mining and the Cumberland Forest was a base for both activities. Today an extensive multi-use trail network winds its way through the area that is enjoyed by hikers, mountain bikers, trail runners, naturalists, children and families, school groups and many others.</p>
-                <p>The Cumberland Community Forest Society (CCFS) is a charitable society formed 21 years ago with the mission to purchase, protect and care for the Cumberland Forest. Guided by the belief that this forest is worth more to our community than as timber, the society is supported by individuals, organizations and businesses from across the region and beyond.
+                <p>
+                    The Cumberland Community Forest Society (CCFS) is a charitable society formed 21 years ago with the mission to purchase, protect and care for the Cumberland Forest. Guided by the belief that this forest is worth more to our community than as timber, the society is supported by individuals, organizations and businesses from across the region and beyond.
                     <br />
                     <br />
                     To date the society has purchased 500 acres of forest and placed it under a conservation covenant to ensure its future protection as a Village park. Their most recent purchase was September 1st 2020 when 225 acres known as Project Perseverance was purchased outright by the community.
@@ -34,7 +35,8 @@ export default function Home() {
                 <p>Help us make conservation history!</p>
                 <p>Become a supporter today.</p>
             </Link>
-            <p className='hashtag-p'>#protectcumberlandforest #restorethecommons #weshareawatershed #cvconservation #projectperseverance</p>
+            <p className='hashtag-p'>
+                #protectcumberlandforest #restorethecommons #weshareawatershed #cvconservation #projectperseverance</p>
             <Link to='/the-forest' className='read-more'>
                 <p>Read More &gt; &gt; &gt;</p>
             </Link>
