@@ -2,6 +2,7 @@ import React from 'react'
 import Donatebutton from '../Donatebutton'
 import '../css/board.css'
 import BannerFerns from '../../images/banner-ferns-1184x592.jpeg'
+import BoardMembers from '../../images/board-top-pic-768x512.jpeg'
 
 export default function Board() {
     return (
@@ -12,8 +13,8 @@ export default function Board() {
                 <div className="board-info">
                     <h3>
                         THE BOARD</h3>
-                    <ul>
-                        <li>Evan Gough – Chair</li>
+                    <ul className='board-list'>
+                        <li><a className='email' href="mailto:egough@shaw.ca">Evan Gough</a> – Chair</li>
                         <li>Jason Ross – Vice Chair
                         </li>
                         <li>Andrew Nicoll – Past Chair
@@ -39,28 +40,32 @@ export default function Board() {
                     </ul>
                     <p>Thank you to our retiring board members in 2021 – Craig Keeping
                     </p>
-                    <h3>
+                    <h3 className='staff'>
                         STAFF</h3>
                     <p>
-                        Executive Director – Meaghan Cursons (<a className='email' href="mailto:meaghan@cumberlandforest.com">meaghan@cumberlandforest.com</a>)
+                        Executive Director – Meaghan Cursons
+                        <br />
+                        (<a className='email' href="mailto:meaghan@cumberlandforest.com">meaghan@cumberlandforest.com</a>)
                         <br />
                         <br />
 
                         Donor Management – Kirsten Harris
+                        <br />
                         (<a className='email' href="mailto:donate@cumberlandforest.com">donate@cumberlandforest.com</a>)
                         <br />
                         <br />
-                        Accounts Payable/Receivable – (<a className='email' href="mailto:admin@cumberlandforest.com">admin@cumberlandforest.com</a>)</p>
+                        Accounts Payable/Receivable
+                        <br />
+                        (<a className='email' href="mailto:admin@cumberlandforest.com">admin@cumberlandforest.com</a>)</p>
 
-                    <h3>We're not done yet.</h3>
-                    <img src="../../images/board-top-pic-768x512.jpeg" alt="Cumberland Forest Society Boards members posing in the forest" />
+                    <img className='board-members' src={BoardMembers} alt="Cumberland Forest Society Boards members posing in the forest" />
                 </div>
-                <div className="donate-aside">
+                <div className="board-aside">
                     <Donatebutton />
-                    <img className='slug' src={BannerFerns} alt="Slug on ground" />
+                    <img className='banner-ferns' src={BannerFerns} alt="Close up of ferns in the forest" />
                     <h3>Did you know?</h3>
                     <p>
-                        The Forest is home to Red Legged Frogs, Roosevelt Elk, Small Eared Bats and other at risk species and is an important link in an extensive habitat corridor that connects the mountains, rivers and lakes of Vancouver Island to the shores of the Salish Sea.</p>
+                        From coho salmon and coastrange sculpin in Perseverance Creek to cougars and Columbian black-tailed deer in the woods, Cumberland’s forests provide habitat for an immense number of animals. Each species has specialized requirements for cover, forage, nesting, denning and other necessities of life.  The complexity and diversity of habitats in the Cumberland Community Forest provides both general (coarse-scale) and specialized (fine-scale) habitat requirements.</p>
                 </div>
             </section>
         </div>
