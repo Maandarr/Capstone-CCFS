@@ -1,0 +1,72 @@
+.board-info > h3,
+.board-info > p,
+.board-aside > h3,
+.board-aside > p,
+.board-list > li {
+  font-family: "Be Vietnam", sans-serif;
+}
+.board-info > h3 {
+  font-weight: 500;
+  margin-bottom: 3vh;
+}
+
+.staff {
+  margin-top: 3vh;
+}
+
+.board-members {
+  width: 80%;
+  margin: 3vh 0;
+}
+
+.board {
+  width: 100%;
+}
+
+.board-container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3vh;
+}
+
+.banner-ferns {
+  width: 100%;
+  margin-top: 3vh;
+}
+
+.board-info,
+.board-aside {
+  width: 50%;
+  padding: 2vh;
+}
+
+.board-list {
+  padding-inline-start: 40px;
+  line-height: 1.5;
+  margin-bottom: 1vh;
+}
+
+.board-aside > p {
+  line-height: 1.5;
+}
+
+.board-aside > h3 {
+  font-family: "Questrial", sans-serif;
+  color: #6e8b3f;
+  font-size: 44px;
+  font-weight: 400;
+  margin: 2vh 0;
+}
+
+@media screen and (max-width: 960px) {
+  .board-container {
+    flex-direction: column;
+  }
+  .board-info,
+  .board-aside {
+    width: 100%;
+  }
+}
