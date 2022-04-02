@@ -2,7 +2,6 @@ import React from 'react'
 import '../css/the-forest.css'
 import { Donatebutton } from '../Donatebutton'
 import Slug from '../../images/slug.jpg'
-import CCFSVideo from '../videos/CCFS - Cumberland Community Forest Society.mp4'
 
 export default function Forest() {
     return (
