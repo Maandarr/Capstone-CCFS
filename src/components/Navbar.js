@@ -18,7 +18,7 @@ function Navbar() {
         <div className='navbar-container'>
             <nav className='navbar'>
                 <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                    <img className='logo' src={logo} alt="" />
+                    <img className='logo' src={logo} alt="Cumberland Community Forest Society text logo" />
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>

@@ -32,7 +32,7 @@ export default function Donate() {
 
                     </div>
                     <div className="iframe-container">
-                        <iframe className='donation-form'
+                        <iframe className='donation-form' title='Canada Helps donation form'
                             src="https://www.canadahelps.org/en/dn/m/57684/donation"
                             scrolling='no'
                         />

@@ -32,7 +32,7 @@ export default function Forest() {
 
                     <p>
                         The CCFS is committed to continuing its work to further establish the Cumberland Forest as a protected space for generations to come! Donors and supporters are being actively sought to make future purchases possible.</p>
-                        <iframe className='ccfs-video' src="https://www.youtube.com/embed/WPiF88giqSM" allowfullscreen="allowfullscreen" width="560" height="315" frameborder="0"></iframe>
+                        <iframe className='ccfs-video' src="https://www.youtube.com/embed/WPiF88giqSM" title="CCFS Youtube video" allowfullscreen="allowfullscreen" width="560" height="315" frameborder="0"></iframe>
                 
                         
 
