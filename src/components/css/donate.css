@@ -229,4 +229,7 @@
   .canada-helps-section {
     flex-direction: column;
   }
+  .donors-container {
+    width: 90%;
+  }
 }
