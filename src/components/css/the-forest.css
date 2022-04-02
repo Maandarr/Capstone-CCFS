@@ -1,66 +1,75 @@
 .forest {
-    width: 100%;
+  width: 100%;
 }
 
 .forest-container {
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3vh;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3vh;
 }
 
 .main-info > h3,
 .donate-aside > h3 {
-    font-family: "Questrial", sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 1.2;
-    margin-bottom: 1rem;
-    margin-top: 0.5rem;
-    overflow-wrap: break-word;
+  font-family: "Questrial", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  overflow-wrap: break-word;
 }
 .main-info > p,
-.donate-aside > p{
-    font-family: "Be Vietnam", sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 24px;
-    margin-bottom: 14.4px;
-    overflow-wrap: break-word;
+.donate-aside > p {
+  font-family: "Be Vietnam", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 14.4px;
+  overflow-wrap: break-word;
 }
 .slug {
-    max-width: 100%;
-    vertical-align: middle;
-    display: inline-block;
-    height: auto;
-    margin: 25px 0px;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  height: auto;
+  margin: 25px 0px;
 }
 
 .main-info {
-    width: 70%;
-    padding: 10px;
+  width: 70%;
+  padding: 10px;
 }
 
 .donate-aside {
-    width: 30%;
-    padding: 10px;
+  width: 30%;
+  padding: 10px;
 }
 .ccfs-video {
-    width: 100%;
+  width: 100%;
 }
 
 @media screen and (max-width: 767px) {
-
 }
 
 @media screen and (max-width: 960px) {
-    .forest-container {
-        flex-direction: column;
-    }
-    .main-info, .donate-aside {
-        width: 100%;
-    }
-    
+  .forest-container {
+    flex-direction: column;
+  }
+  .main-info,
+  .donate-aside {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 961px) {
+  .forest,
+  .board,
+  .ccfs,
+  .donation-content,
+  .home-container,
+  .contact {
+    padding-bottom: 12vh;
+  }
 }

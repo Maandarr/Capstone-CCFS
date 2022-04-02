@@ -82,3 +82,11 @@ footer {
     margin-right: auto;
   }
 }
+
+@media screen and (min-width: 961px) {
+  .footer-container::before {
+    transform: translateY(-30%);
+    height: 130px;
+    margin-top: -60px;
+    }
+}
