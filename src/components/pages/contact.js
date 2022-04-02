@@ -17,7 +17,7 @@ export default function Contact() {
 
                     We respectfully acknowledge that we do our work within the unceded traditional territory of the <a className='email' href="https://komoks.ca/">K’ómoks Nation</a>.</p>
                 <h3>CCFS TEAM</h3>
-                <ul>
+                <ul className='ccfs-team'>
                     <li><strong>Meaghan Cursons</strong> – Executive Director <a className='email' href="mailto:meaghan@cumberlandforest.com">meaghan@cumberlandforest.com</a>
                     </li>
                     <li><strong>Kirsten Harris</strong> – Donor Management <a className='email' href="mailto:donate@cumberlandforest.com">donate@cumberlandforest.com</a>

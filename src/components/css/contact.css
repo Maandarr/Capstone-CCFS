@@ -18,3 +18,8 @@
   margin-top: 3vh;
   margin-bottom: 2vh;
 }
+
+.ccfs-team {
+  padding-inline-start: 40px;
+  line-height: 1.5;
+}
