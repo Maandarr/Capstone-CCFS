@@ -22,6 +22,8 @@
 .ccfs-donate-aside {
     display: flex;
     flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .donate-aside-container {

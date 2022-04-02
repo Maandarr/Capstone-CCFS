@@ -4,11 +4,14 @@
 
 .navbar {
   background: #fff;
+  max-width: 1600px;
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .navbar-logo {
@@ -76,7 +79,7 @@
   .nav-menu {
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 100%;
     height: auto;
     position: absolute;
     top: 80px;
@@ -95,7 +98,7 @@
 
   .nav-menu.active {
     background: #fff;
-    left: 20%;
+    left: 0%;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
@@ -167,13 +170,12 @@
     order: 2;
   }
   .navbar-container {
-    /* top: 400px; */
-    height: 400px;
+    height: 550px;
     padding: 0;
   }
 
   .logo {
-    height: 100%;
+    height: auto;
     width: 100%;
   }
 
@@ -183,7 +185,13 @@
     left: 0;
     transform: translate(0%, 50%);
     height: auto;
+    /* max-height: 600px; */
     padding: 30px;
     order: 1;
+  }
+}
+@media screen and (max-width: 550px) {
+  .navbar-container {
+    height: 390px;
   }
 }

@@ -1,6 +1,6 @@
 .updated {
   font-family: "Questrial", sans-serif;
-  color: #a8ba3a;
+  color: #fff;
   font-size: 28px;
   margin-bottom: 30px;
 }
@@ -45,18 +45,19 @@ footer {
   margin-bottom: 8px;
 }
 .submit-btn {
-  background: #a8ba3a;
+  background: #cbd6ba;
   text-align: center;
   border: none;
   border-radius: 3px;
   padding: 8px 15px;
   font-family: "Be Vietnam Pro", sans-serif;
   font-size: 16px;
-  color: #fff;
+  color: #54595f;
 }
 
 .submit-btn:hover {
-  background: #86aa4b;
+  background: #5e7934;
+  color: #fff;
 }
 
 .footer-container > p {

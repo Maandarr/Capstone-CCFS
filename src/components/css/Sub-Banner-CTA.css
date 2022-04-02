@@ -12,6 +12,7 @@
   margin-right: auto;
   margin-left: auto;
   width: 80%;
+  max-width: 1600px;
   padding: 65px 10px;
 }
 
@@ -73,16 +74,17 @@
 .sub-submit-btn {
   margin-bottom: 20px;
   padding: 8px 16px;
-  background: #a8ba3a;
+  background: #cbd6ba;
   font-family: "Be Vietnam Pro", sans-serif;
-  color: #fff;
+  color: #54595f;
   font-size: 16px;
   border: none;
   border-radius: 3px;
   font-weight: 400;
 }
 .sub-submit-btn:hover {
-  background: #86aa4b;
+  background: #5e7934;
+  color: #fff;
 }
 
 @media screen and (max-width: 960px) {
