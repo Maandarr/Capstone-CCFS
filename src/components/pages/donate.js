@@ -6,7 +6,6 @@ export default function Donate() {
         <div className='donation-content'>
             <h1 className='banner-title donate-title'>Donate Today</h1>
             <div className="form-section">
-                <img src="./images/land-trust.png"/>
                 <div className="form-section-container">
                     <div className="form-about">
                         <p>
