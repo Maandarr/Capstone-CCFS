@@ -26,7 +26,7 @@ export default function Donate() {
                         <h2>Donate today!</h2>
                         <h3>Powered by</h3>
                         <figure className='canada-helps-section'>
-                            <img className='canada-helps-logo' src="https://www.cumberlandforest.com/backwoods/wp-content/uploads/2017/11/header-logo-en.png" alt="" />
+                            <img className='canada-helps-logo' src="https://www.cumberlandforest.com/backwoods/wp-content/uploads/2017/11/header-logo-en.png" alt="Canada Helps logo" />
                             <p><strong>If you already use CanadaHelps.org</strong> to keep track of your donations, we are happy to accept your help via <a className='profile-here' href="https://www.canadahelps.org/en/dn/m/6143/donation">our profile here</a>.</p>
                         </figure>
 
