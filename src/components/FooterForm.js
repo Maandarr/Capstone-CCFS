@@ -24,9 +24,20 @@ class SubscribeForm extends React.Component {
     render() {
       return (
         <form onSubmit={this.handleSubmit}>
-            <input type="text" name="name" placeholder="Your Name" required/>
-            <input type="email" name="email" placeholder="Your Email" required/>
-          <input type="submit" value="Subscribe" />
+            <input type="text" 
+            id="name"
+            name="name" 
+            placeholder="Your Name" 
+            aria-labelledby="name"
+            required/>
+            <input 
+            id="email"
+            type="email" 
+            name="email" 
+            placeholder="Your Email" 
+            aria-labelledby="email"
+            required/>
+          <input id="subscribe" type="submit" value="Subscribe" aria-labelledby="subscribe"/>
         </form>
       );
     }

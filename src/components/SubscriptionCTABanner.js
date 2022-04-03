@@ -56,6 +56,7 @@ export class SubscriptionCTABanner extends React.Component {
                             <input className="sub-input" type="text"
                                 placeholder="Your Name"
                                 value={this.state.name}
+                                aria-labelledby="Your Name"
                                 onChange={e => this.setState({ name: e.target.value })}
                             />
                         </div>
@@ -63,12 +64,14 @@ export class SubscriptionCTABanner extends React.Component {
                             <input className="sub-input" type="text"
                                 placeholder="Your Email"
                                 value={this.state.email}
+                                aria-labelledby="Your Email"
                                 onChange={e => this.setState({ email: e.target.value })}
                             />
                         </div>
                         <div>
                             <input className="sub-submit-btn" type="submit"
                                 value="Subscribe"
+                                aria-labelledby="Submit"
                                 onClick={e => this.onSubmit(e)}
                             />
                         </div>
