@@ -53,25 +53,24 @@ export class SubscriptionCTABanner extends React.Component {
                     </div>
                     <div className="sub-banner-form">
                         <div>
-                            <input className="sub-input" type="text"
+                            <label htmlFor="name" className='visually-hidden'>Name</label>
+                            <input id='name' className="sub-input" type="text"
                                 placeholder="Your Name"
                                 value={this.state.name}
-                                aria-labelledby="Your Name"
                                 onChange={e => this.setState({ name: e.target.value })}
                             />
                         </div>
                         <div>
-                            <input className="sub-input" type="text"
+                            <label htmlFor="email" className='visually-hidden'>Email</label>
+                            <input id='email' className="sub-input" type="text"
                                 placeholder="Your Email"
                                 value={this.state.email}
-                                aria-labelledby="Your Email"
                                 onChange={e => this.setState({ email: e.target.value })}
                             />
                         </div>
                         <div>
                             <input className="sub-submit-btn" type="submit"
                                 value="Subscribe"
-                                aria-labelledby="Submit"
                                 onClick={e => this.onSubmit(e)}
                             />
                         </div>

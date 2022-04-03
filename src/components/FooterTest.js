@@ -57,14 +57,16 @@ class FooterTest extends React.Component {
                         <h2 className="updated">Stay Updated!</h2>
                     }
                     <div>
-                        <input className="input-style" type="text"
+                    <label htmlFor="footer-name" className="visually-hidden">Name</label>
+                        <input id='footer-name' className="input-style" type="text"
                             placeholder="Your Name"
                             value={this.state.name}
                             onChange={e => this.setState({ name: e.target.value })}
                         />
                     </div>
                     <div>
-                        <input className="input-style" type="text"
+                    <label htmlFor="footer-email" className="visually-hidden">Email</label>
+                        <input id='footer-email' className="input-style" type="text"
                             placeholder="Your Email"
                             value={this.state.email}
                             onChange={e => this.setState({ email: e.target.value })}

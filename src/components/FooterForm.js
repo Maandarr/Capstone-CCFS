@@ -24,12 +24,10 @@ class SubscribeForm extends React.Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
-        <label htmlFor="name" className="visually-hidden">Name</label>
         <input type="text"
           id="name"
           name="name"
           placeholder="Your Name"
-          aria-labelledby="name"
           required />
         <label htmlFor="email" className="visually-hidden">Email</label>
 
@@ -38,7 +36,6 @@ class SubscribeForm extends React.Component {
           type="email"
           name="email"
           placeholder="Your Email"
-          aria-labelledby="email"
           required />
         <input id="subscribe" type="submit" value="Subscribe" aria-labelledby="subscribe" />
       </form>
