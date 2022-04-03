@@ -11,7 +11,7 @@ export default function Home() {
         <div className='home-container'>
             <h1 className='home-title'>Welcome to the Forest</h1>
             <video autoPlay loop muted id='video'>
-                <source src={backgroundVideo} type='video/mp4' />
+                <source src={backgroundVideo} type='video/mp4' alt="Let's protect our forest youtube video"/>
             </video>
             <section className='home-about'>
                 <p>
