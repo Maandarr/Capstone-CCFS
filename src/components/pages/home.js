@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import SubscriptionCTABanner from '../SubscriptionCTABanner'
 import backgroundVideo from '../videos/lets-protect-our-forest-kapwing-1min.mp4'
+
 import '../css/home.css'
 
 export default function Home() {
