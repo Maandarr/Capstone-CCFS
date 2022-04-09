@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from 'axios';
 import './css/Sub-Banner-CTA.css'
-
+import MailchimpFormContainer from './CustomForm'
 const API_PATH = 'http://localhost:3000/ccfs-react-app/src/api/index.php';
 
 
@@ -9,9 +9,7 @@ export class SubscriptionCTABanner extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            name: '',
-            email: '',
-            dataSent: ''
+          
         }
         this.onSubmit = this.onSubmit.bind(this);
 
@@ -52,7 +50,8 @@ export class SubscriptionCTABanner extends React.Component {
                         <p>Get on the Cumberland Community Forest email list for updates on fundraising initiatives, purchases and random fun.</p>
                     </div>
                     <div className="sub-banner-form">
-                        <div>
+                        <MailchimpFormContainer />
+                        {/* <div>
                             <label htmlFor="name" className='visually-hidden'>Name</label>
                             <input id='name' className="sub-input" type="text"
                                 placeholder="Your Name"
@@ -73,7 +72,7 @@ export class SubscriptionCTABanner extends React.Component {
                                 value="Subscribe"
                                 onClick={e => this.onSubmit(e)}
                             />
-                        </div>
+                        </div> */}
                         <p>By clicking the Sign Up button you agree to receive communications from the Cumberland Community Forest Society. We take your privacy seriously and will not share your contact information. You can unsubscribe from email communications at any time</p>
 
                     </div>

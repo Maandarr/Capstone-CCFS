@@ -1,0 +1,4 @@
+window.env = {
+  "REACT_APP_MAILCHIMP_U": "d17671d257ac9112faf74a092",
+  "REACT_APP_MAILCHIMP_ID": "1564c6a22d"
+};
