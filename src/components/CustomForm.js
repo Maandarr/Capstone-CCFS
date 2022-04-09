@@ -5,8 +5,6 @@ import env from "react-dotenv";
 
 const CustomForm = ({ status, message, onValidated }) => {
 
-    // const {modalOpen, setModalOpen} = useState();
-
     const [email, setEmail] = useState('');
     const [yourName, setYourName] = useState('');
 
@@ -87,7 +85,6 @@ const CustomForm = ({ status, message, onValidated }) => {
 
        {
           status === 'success' ? <button
-            // onClick={() => setModalOpen(false)}
             className="g__justify-self-center">Close</button> : <InputField
                  label="subscribe"
                  type="submit"
