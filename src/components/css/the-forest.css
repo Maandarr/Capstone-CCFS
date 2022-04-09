@@ -61,6 +61,7 @@
   .donate-aside {
     width: 100%;
   }
+  
 }
 @media screen and (min-width: 961px) {
   .forest,
@@ -69,6 +70,6 @@
   .donation-content,
   .home-container,
   .contact {
-    padding-bottom: 20vh;
+    padding-bottom: 10vh;
   }
 }
