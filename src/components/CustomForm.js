@@ -101,9 +101,6 @@ const CustomForm = ({ status, message, onValidated }) => {
 
 const MailchimpFormContainer = props => {
 
-    // const u = 'd17671d257ac9112faf74a092'
-    // const id = '1564c6a22d'
-
     const postUrl = `https://gmail.us14.list-manage.com/subscribe/post?u=${env.REACT_APP_MAILCHIMP_U}&id=${env.REACT_APP_MAILCHIMP_ID}`
     return (
         <div className="mc__form-container">
