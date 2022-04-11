@@ -154,8 +154,12 @@
   }
 }
 
+
+@media screen and (max-width: 767px) {
+  .home-title {
+    text-align: center;
+  }
+}
 @media screen and (min-width: 961px) {
-  /* .home-about {
-    width: 60%;
- } */
+ 
 }
