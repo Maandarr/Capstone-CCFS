@@ -55,7 +55,7 @@ export default function Donate() {
                             Old school!
                         </p>
                         <div className="bank-transfer-wrapper">
-                            <button className='bank-transfer-form'><a href="https://www.cumberlandforest.com/backwoods/wp-content/uploads/2021/11/2021-2022-CCFS-Donor-Form.pdf">Here's the Bank Transfer Form</a></button>
+                            <button className='bank-transfer-form'><a href="https://www.cumberlandforest.com/backwoods/wp-content/uploads/2021/11/2021-2022-CCFS-Donor-Form.pdf" rel="noreferrer" target="_blank">Here's the Bank Transfer Form</a></button>
                         </div>
 
                     </div>
@@ -70,7 +70,7 @@ export default function Donate() {
                         </form>
                         <h4 className='payment-methods-heading second-payment-methods-heading'>Donate securities and multiply your investment!</h4>
                         <p>
-                            <a className='click-here-link' href="https://www.canadahelps.org/en/dn/s/57510/donate">CLICK HERE.</a>
+                            <a className='click-here-link' href="https://www.canadahelps.org/en/dn/s/57510/donate" rel="noreferrer" target="_blank">CLICK HERE.</a>
                             <br />
                             <br />
                             The Cumberland Community Forest Society is a charitable organization.
